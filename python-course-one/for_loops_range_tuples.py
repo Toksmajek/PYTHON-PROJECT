@@ -28,4 +28,42 @@ for name, age in students:
 # - Print numbers 1 through 10 using range().
 # - Add another student to the list and run the loop again.
 # Write your own code below:
+primes = {2,3,5,7,11} 
 
+for prime in primes:
+    print(f'{prime} is a prime number.')
+
+
+
+kid_ages = (3, 7, 12)
+for age in kid_ages: 
+    print(f'Ihave a {age} year old kid. ')
+
+
+for i in range(20):
+    print(i)
+
+
+my_friends = {
+    "Alice": 25,
+    "Bob": 30,
+    "Charlie": 22
+}
+
+for name, days in my_friends.items()
+    if name == "Bob":
+        print('I know Bob!')
+    print(f"I last saw {name} {days} days ago. ")
+    print(f"I last saw {name} {days} days ago. ") 
+
+
+print(my_friends.items()) # [('alice', 25), ('Bob', 30), ('Charlie', 22)]
+
+for t in [("Alice", 25), ("Bob", 30), ("Charlie", 22)]:
+    n, v = t
+    print(n)
+    print(v)
+
+who_do_i_know = [("Alice", 25), ("Bob", 30), ("Charlie", 22)]
+if who_do_i_know in my_friends: 
+    print("I know them!")
